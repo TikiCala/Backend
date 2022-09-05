@@ -12,26 +12,91 @@
     <h1>Proyecto back</h1>
 
     <?php
-    $mensaje= "Hola mundo";
-
-    echo $mensaje;
-
+    $mensaje = "Hola mundo";
     $entero1 = 40;
     $entero2 = 6;
     $gradosc = 20;
-    $gradosf = (($gradosc * 9/5) + 32);
+    $gradosf = (($gradosc * 9 / 5) + 32);
     $baserectangulo = 18;
     $alturarectangulo = 12;
-    $perimetrorectangulo = ($baserectangulo*2 + $alturarectangulo*2);
-    $arearectangulo = $baserectangulo*$alturarectangulo;
+    $perimetrorectangulo = ($baserectangulo * 2 + $alturarectangulo * 2);
+    $arearectangulo = $baserectangulo * $alturarectangulo;
     $radiocirculo = 30;
     $pi = 3.14;
-    $perimetrocirculo = 2*$pi*$radiocirculo;
-    $areacirculo = $pi*($radiocirculo*$radiocirculo);
-
-    echo $perimetrocirculo;
+    $perimetrocirculo = 2 * $pi * $radiocirculo;
+    $areacirculo = $pi * ($radiocirculo * $radiocirculo);
 
     ?>
+
+    <?php
+    echo "Suma: ";
+    echo $entero1 +  $entero2;
+    ?>
+    <br>
+    <hr>
+
+    <?php
+    echo "Resta: ";
+    echo $entero1 - $entero2;
+    ?>
+    <br>
+    <hr>
+
+    <?php
+    echo "Multiplicación: ";
+    echo $entero1 * $entero2;
+    ?>
+    <br>
+    <hr>
+
+    <?php
+    echo "División: ";
+    echo $entero1 / $entero2;
+    ?>
+    <br>
+    <hr>
+
+    <?php
+    echo "Resto: ";
+    echo $entero1 % $entero2;
+    ?>
+    <br>
+    <hr>
+
+    <?php
+    echo "Grados Fahrenheit: ";
+    echo $gradosf;
+    ?>
+    <br>
+    <hr>
+
+    <?php
+    echo "Perímetro del rectángulo: ";
+    echo $perimetrorectangulo;
+    ?>
+    <br>
+
+    <?php
+    echo "área del rectángulo: ";
+    echo $arearectangulo;
+    ?>
+
+    <br>
+    <hr>
+
+    <?php
+    echo "Perímetro del círculo: ";
+    echo $perimetrocirculo;
+    ?>
+    <br>
+
+    <?php
+    echo "Área del círculo: ";
+    echo $areacirculo;
+    ?>
+    
+
+
 </body>
 
 </html>
