@@ -29,6 +29,12 @@
     ?>
 
     <?php
+    echo $mensaje;
+    ?>
+    <br>
+    <hr>
+
+    <?php
     echo "Suma: ";
     echo $entero1 +  $entero2;
     ?>
@@ -94,7 +100,7 @@
     echo "Área del círculo: ";
     echo $areacirculo;
     ?>
-    
+
 
 
 </body>
